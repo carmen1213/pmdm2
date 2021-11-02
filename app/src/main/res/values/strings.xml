@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">pmdm</string>
+    <string name="textobutton">Acceder</string>
+    <string name="textobuttonS">Saludos</string>
+    <string name="textobuttonSu">Suma</string>
+    <string name="textobuttonE">Caluladora</string>
+    <string name="textobuttonE1">Ejercicio 1</string>
+    <string name="textobuttonE2">Ejercicio 2</string>
+    <string name="textobuttonE3">Ejercicio 3</string>
+    <string name="textosaluso">Buenos dias!</string>
+    <string name="textosalusoboton">Saludos!</string>
+    <string name="titulosuma">Suma dos numeros!</string>
+    <string name="Sumanumero1">Numero 1: </string>
+    <string name="Sumanumero2">Numero 2: </string>
+    <string name="calcular">Calcular: </string>
+    <string name="nada"> </string>
+    <string name="Introduce">Introduce un numero </string>
+
+</resources>
