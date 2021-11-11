@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Pmdm">
         <activity
+            android:name=".Arrayletras"
+            android:exported="false" />
+        <activity
+            android:name=".Arraynumero"
+            android:exported="false" />
+        <activity
+            android:name=".fibonacci"
+            android:exported="false" />
+        <activity
             android:name=".calculadora"
             android:exported="false" />
         <activity
