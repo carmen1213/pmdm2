@@ -38,7 +38,24 @@ class Botones2 : AppCompatActivity() {
             startActivity(cambiando)
 
         }
+        val Fibonacci = findViewById<Button>(R.id.ejercicio2)
 
+        Fibonacci.setOnClickListener {
+
+            val cambiando = Intent(this, fibonacci ::class.java)
+
+            startActivity(cambiando)
+
+        }
+        val arrayletras = findViewById<Button>(R.id.ejercicio4)
+
+        arrayletras.setOnClickListener {
+
+            val cambiando = Intent(this, Arrayletras ::class.java)
+
+            startActivity(cambiando)
+
+        }
 
     }
 

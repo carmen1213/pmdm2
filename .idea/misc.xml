@@ -4,9 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Carmen/AndroidStudioProjects/pmdm2/app/src/main/res/font/fuentes.xml" value="0.16041666666666668" />
+        <entry key="..\:/Users/Carmen/AndroidStudioProjects/pmdm2/app/src/main/res/layout/activity_arrayletras.xml" value="0.264" />
         <entry key="..\:/Users/Carmen/AndroidStudioProjects/pmdm2/app/src/main/res/layout/activity_botones.xml" value="0.12760416666666666" />
         <entry key="..\:/Users/Carmen/AndroidStudioProjects/pmdm2/app/src/main/res/layout/activity_botones2.xml" value="0.264" />
         <entry key="..\:/Users/Carmen/AndroidStudioProjects/pmdm2/app/src/main/res/layout/activity_calculadora.xml" value="0.264" />
+        <entry key="..\:/Users/Carmen/AndroidStudioProjects/pmdm2/app/src/main/res/layout/activity_fibonacci.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Carmen/AndroidStudioProjects/pmdm2/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/Carmen/AndroidStudioProjects/pmdm2/app/src/main/res/layout/activity_saludos.xml" value="0.176" />
         <entry key="..\:/Users/Carmen/AndroidStudioProjects/pmdm2/app/src/main/res/layout/activity_suma.xml" value="0.264" />
