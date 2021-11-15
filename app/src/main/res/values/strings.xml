@@ -37,6 +37,9 @@
     <string name="calcularfibo"> Calcular</string>
     <string name="tituloarrayletras"> Array Letras </string>
     <string name="botonarray1"> Separar</string>
+    <string name="Array"> Estas son las letras</string>
+    <string name="Arrayconsonantes"> Estas son las Consonantes</string>
+    <string name="Arrayvocales"> Estas son las Vocales</string>
 
 
 </resources>
