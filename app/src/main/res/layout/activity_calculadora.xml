@@ -2,23 +2,11 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sumar"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@mipmap/fondocalculadora2"
     tools:context=".calculadora">
-
-    <Button
-        android:id="@+id/button20"
-        android:layout_width="71dp"
-        android:layout_height="56dp"
-        android:text="@string/coma"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.617"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.887" />
 
     <Button
         android:id="@+id/igual"
@@ -34,7 +22,7 @@
         app:layout_constraintVertical_bias="0.887" />
 
     <Button
-        android:id="@+id/button14"
+        android:id="@+id/numero1"
         android:layout_width="71dp"
         android:layout_height="56dp"
         android:text="@string/uno"
@@ -47,20 +35,20 @@
         app:layout_constraintVertical_bias="0.751" />
 
     <Button
-        android:id="@+id/button15"
-        android:layout_width="138dp"
-        android:layout_height="53dp"
+        android:id="@+id/numero0"
+        android:layout_width="221dp"
+        android:layout_height="59dp"
         android:text="@string/cero"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.168"
+        app:layout_constraintHorizontal_bias="0.242"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.883" />
+        app:layout_constraintVertical_bias="0.886" />
 
     <Button
-        android:id="@+id/button16"
+        android:id="@+id/numero2"
         android:layout_width="71dp"
         android:layout_height="56dp"
         android:text="@string/dos"
@@ -73,7 +61,7 @@
         app:layout_constraintVertical_bias="0.751" />
 
     <Button
-        android:id="@+id/button17"
+        android:id="@+id/numero3"
         android:layout_width="71dp"
         android:layout_height="56dp"
         android:text="@string/tres"
@@ -86,7 +74,7 @@
         app:layout_constraintVertical_bias="0.751" />
 
     <Button
-        android:id="@+id/button18"
+        android:id="@+id/sumares"
         android:layout_width="71dp"
         android:layout_height="56dp"
         android:text="@string/suma"
@@ -99,7 +87,7 @@
         app:layout_constraintVertical_bias="0.751" />
 
     <Button
-        android:id="@+id/button10"
+        android:id="@+id/numero4"
         android:layout_width="71dp"
         android:layout_height="56dp"
         android:text="@string/cuatro"
@@ -112,7 +100,7 @@
         app:layout_constraintVertical_bias="0.611" />
 
     <Button
-        android:id="@+id/button11"
+        android:id="@+id/numero5"
         android:layout_width="71dp"
         android:layout_height="56dp"
         android:text="@string/cinco"
@@ -126,7 +114,7 @@
         app:layout_constraintVertical_bias="0.611" />
 
     <Button
-        android:id="@+id/button12"
+        android:id="@+id/numero6"
         android:layout_width="71dp"
         android:layout_height="56dp"
         android:text="@string/seis"
@@ -139,7 +127,7 @@
         app:layout_constraintVertical_bias="0.611" />
 
     <Button
-        android:id="@+id/button13"
+        android:id="@+id/restar"
         android:layout_width="71dp"
         android:layout_height="56dp"
         android:text="@string/resta"
@@ -170,7 +158,8 @@
         android:layout_height="48dp"
         android:layout_marginStart="46dp"
         android:layout_marginEnd="53dp"
-        android:text="TextView"
+        android:gravity="center"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -179,7 +168,7 @@
         app:layout_constraintVertical_bias="0.152" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/borrar"
         android:layout_width="212dp"
         android:layout_height="53dp"
         android:layout_marginBottom="31dp"
@@ -193,7 +182,7 @@
         app:layout_constraintVertical_bias="0.367" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/numero7"
         android:layout_width="71dp"
         android:layout_height="56dp"
         android:layout_marginEnd="9dp"
@@ -207,7 +196,7 @@
         app:layout_constraintVertical_bias="0.481" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/numero8"
         android:layout_width="71dp"
         android:layout_height="56dp"
         android:layout_marginEnd="13dp"
@@ -222,7 +211,7 @@
         app:layout_constraintVertical_bias="0.505" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/numero9"
         android:layout_width="71dp"
         android:layout_height="56dp"
         android:layout_marginBottom="32dp"
@@ -236,7 +225,7 @@
         app:layout_constraintVertical_bias="0.505" />
 
     <Button
-        android:id="@+id/button9"
+        android:id="@+id/multiplicar"
         android:layout_width="71dp"
         android:layout_height="56dp"
         android:text="@string/multiplica"
@@ -249,7 +238,7 @@
         app:layout_constraintVertical_bias="0.481" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/division"
         android:layout_width="71dp"
         android:layout_height="56dp"
         android:text="@string/dividir"
