@@ -56,6 +56,15 @@ class Botones2 : AppCompatActivity() {
             startActivity(cambiando)
 
         }
+        val arraynumeros = findViewById<Button>(R.id.ejercicio3)
+
+        arraynumeros.setOnClickListener {
+
+            val cambiando = Intent(this, Arraynumero ::class.java)
+
+            startActivity(cambiando)
+
+        }
 
     }
 

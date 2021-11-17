@@ -2,6 +2,7 @@
 <resources>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/abril_fatface</item>
+        <item>@font/akronim</item>
         <item>@font/arbutus</item>
         <item>@font/bangers</item>
         <item>@font/chewy</item>

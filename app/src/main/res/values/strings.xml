@@ -40,6 +40,9 @@
     <string name="Array"> Estas son las letras</string>
     <string name="Arrayconsonantes"> Estas son las Consonantes</string>
     <string name="Arrayvocales"> Estas son las Vocales</string>
-
-
+    <string name="Arraynumeros"> Separa un array de Numeros</string>
+    <string name="Arraynumerosaleatorios"> Este es el Array de Numeros Aleatorios</string>
+    <string name="Arraynumerosaleatoriospares"> Este es el Array de Numeros Pares</string>
+    <string name="Arraynumerosaleatoriosimpares"> Este es el Array de Numeros Impares</string>
+    <string name="botonnumeros"> Generar </string>
 </resources>
